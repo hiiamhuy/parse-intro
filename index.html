@@ -9,13 +9,30 @@
 		
         <!-- Include parse library here -->
         
+
+<script src="//www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+
+
     </head>
     <body>
     	<div class="container">
     		
             <!-- Here is where you should build your form.  
                 You can make it look nicer with bootstrap classes like "form-input" -->
-
+                <h1>Music to listen to</h1>
+                 <div class="form-group">
+  <label for="band">Band Name</label>
+  <input type="text" class="form-control" id="band">
+</div>
+<div class="form-group">
+  <label for="web">Website</label>
+  <input type="text" class="form-control" id="web">
+</div>
+<div class="form-group">
+  <label for="song">Best Song</label>
+  <input type="text" class="form-control" id="song">
+</div>
+ <button type="submit">Add Me</button> 
     	</div>
         <div class="container">
             <ol id="list">
