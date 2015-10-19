@@ -32,6 +32,11 @@ $('form').submit(function() {
 	
 	// After setting each property, save your new instance back to your database
 
+	//loop version
+	$(This).find('input').each(function()) {
+		music.set($(This).attr('id'), $(this).val());
+	}
+		$(this).val('');
 	song.save
 	return false
 })
